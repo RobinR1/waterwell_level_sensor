@@ -1,0 +1,14 @@
+#define TIME_TO_SLEEP  10        /* Time ESP32 will go to sleep (in seconds) */
+#define HEARTBEAT      3600        /* Time to send data even if measurement was not changed (in seconds) */
+#define SENSOR_RANGE_MIN 20      /* Min distance to accept as valid measurement */
+#define SENSOR_RANGE_MAX 450     /* Max distance to accept as valid measurement */
+#define SENSOR_TIMEOUT 10         /* Timeout trying to get valid measurement (in retries) */
+
+#define WIFI_TIMEOUT   30        /* Timeout trying to connect to wifi (in seconds) */
+#define WIFI_SSID "wifi_ssid"
+#define WIFI_PASSWORD "wifi_passwd"
+
+#define MQTT_HOST IPAddress(192, 168, 0, 1)  /* IP of MQTT to publish */
+#define MQTT_PORT 1883
+#define MQTT_PUBLISH_TOPIC "home/rainwater_well/level"
+#define MQTT_SETTINGS_TOPIC "home/rainwater_well/settings"
