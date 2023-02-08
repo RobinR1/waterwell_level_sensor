@@ -116,6 +116,7 @@ To finalize solder a female PH2.0 2p to the battery holder output, make sure USB
 
 Put everything in a waterproof casing and install it in your rainwater well making sure the sensor is placed at least 20cm above the maximum water level.
 You will have to manually measure the distance from the sensor to the max. water level to know at what distance the well is 100% full. And again from the sensor to the min. water level to know at what distance the well is empty. Now you can use this formula to calculate how full the well is in percentage:
+
 $$
 { d_{measurement} - d_{min} \over d_{max} - d_{min} } \times 100
 $$
